@@ -1,0 +1,14 @@
+{
+  "name": "rikeey",
+  "version": "1.0.0",
+  "description": "rikeey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alsoknownaszac",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}
