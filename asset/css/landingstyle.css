@@ -4,6 +4,8 @@ body {
     font-family: 'Karma', serif;
     background: #E5E5E5;
     font-size: normal;
+    margin: 0;
+    padding: 0;
   
 }
 
@@ -27,6 +29,37 @@ body {
     font-weight: 300;
 }
 
+.fs-xxs {
+    font-size: xx-small;
+}
+
+.fs-xs {
+    font-size: x-small;
+}
+
+.fs-smr {
+    font-size: smaller;
+}
+
+.fs-sm {
+    font-size: small;
+}
+
+.fs-nm {
+    font-size: normal;
+}
+
+.fs-lg {
+    font-size: large;
+}
+
+.fs-lgr {
+    font-size: larger;
+}
+
+.fs-xlg {
+    font-size: x-large;
+}
 
 a,
 a:hover,
@@ -37,6 +70,10 @@ a:focus {
 }
 
 .white-color {
+    color: #ffff;
+}
+
+.white-color:hover {
     color: #ffff;
 }
 
@@ -51,6 +88,47 @@ a:focus {
 .no-box-shadow {
     box-shadow: none !important;
 }
+
+
+.lh-1 {
+    line-height: 1rem;
+}
+
+.lh-2 {
+    line-height: 1.5rem;
+}
+
+.lh-3 {
+    line-height: 2rem;
+}
+
+.grey-color {
+    color: rgba(101,97,97,1);
+
+}
+
+.br-1 {
+    border-radius: 0.3rem;
+}
+
+.br-2 {
+    border-radius: 0.5rem;
+}
+
+.br-3 {
+    border-radius: 0.7rem;
+}
+
+.border-white {
+    border: 0.1rem solid #fff;
+}
+
+
+
+
+
+
+
 
 /**********************************************
                 
@@ -82,6 +160,198 @@ nav {
 }
 
 
+/* small screen sidebar css */
+
+#sideBar {
+    position: fixed;
+    width: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background: #fff;
+    z-index: 1;
+    transition: 0.35s;
+    overflow-y: scroll;
+}
+
+#sideBar .sidebar-nav {
+    height: 1.5rem;
+}
+
+#sideBar .sidebar-links {
+    position: relative;
+    top: 0.5rem;
+    left: 0.6rem;
+    line-height: 2rem;
+    transition: 0.1s;
+}
+
+#sideBar .sidebar-links .sub-links{
+   
+    line-height: 1.3rem;
+}
+
+
+.open-btn {
+   display: flex;
+   align-items: center;
+} 
+
+
+/* main-content */
+
+.main-content {
+    margin-top: 4rem;
+    height: 500rem;
+}
+
+
+ /* welcome bg img */
+
+
+.bg-rikeey {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/madeforcomfort.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2rem;
+}
+
+.layer {
+    margin: 0;
+    padding: 0;
+    background-color: rgba( 143,16,16,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.comfort-text {
+    font-size: 5rem;
+}
+
+/* catalog-content */
+
+.catalog-label {
+    background-color: rgba(115,15,17,1 );
+    color: #fff;
+    width: 20rem;
+    height: 3.2rem;
+    margin-left: 0;
+    display: flex;
+    margin-bottom: 2rem;
+ }
+
+
+
+
+.men-top,
+.women-catalog,
+.men-bottom,
+.men-top-img,
+.women-set-img,
+.women-short-img,
+.men-bottom-img {
+    height: 100%;
+   
+}
+
+.men-top,
+.women-short,
+.women-set,
+.men-bottom {
+    position: relative;
+}
+
+
+.catalog-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.catalog-text-bg {
+    position: absolute;
+    z-index: 100;
+    color: white;
+}
+
+
+
+/* 
+.men-top {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/men-top.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 4rem;
+}
+
+
+.men-bottom {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images//men-button.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 4rem;
+}
+
+.women-set {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/women-set.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 4rem;
+}
+
+.women-short {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/women-short.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+.men-top-img,
+.men-bottom-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.women-set,
+.women-short {
+    height: 50%;
+}
+
+.men-top {
+    position: relative;
+    
+}
+
+.catalog-text-bg {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    width: 10rem;
+    height: 3.2rem;
+    margin-left: 0;
+    display: flex;
+
+}
+
+
+
+
+
 
 
 /**********************************************
@@ -90,9 +360,220 @@ nav {
 
 ***********************************************/
 footer {
-    height: 22rem;
+    position: relative;
+    height: 30rem;
+    bottom: 0;
+
 }
 
 .footer-logo {
     height: 3rem;
+}
+
+
+
+
+
+/**********************************************
+        MEDIA QUERY FOR SMALL SCREENS
+***********************************************/
+
+
+@media (min-width: 320px ) {
+
+    /* nav/sidebar */
+
+    .bg-nav {
+        display: none ;
+    
+    }
+
+    .nav-logo-container {
+        height: 1.6rem !important;
+        align-self: center;
+    }
+
+    #sideBar .sidebar-links {
+        font-size: small;
+    }
+
+    #sideBar .sidebar-links .sub-links{
+        font-size: x-small;
+        
+    }
+
+    /* main-content */
+
+    
+
+    /* catalog-content */
+
+    /* catalog */
+
+    .catalog-label {
+        display: none;
+    }
+
+    .catalog-image-container {
+        margin: 0 1rem;
+        height: 800px ;
+        
+    }
+
+    .men-top {
+        order: 3;
+    }
+
+    .men-bottom {
+        order: 4;
+    }
+
+    .women-catalog {
+        order: 2;
+    }
+
+    .men-top,
+    .men-bottom {
+        height: 48.5%;
+        
+    }
+
+    .women-short,
+    .women-set {
+        height: 48.5%;
+
+    }
+
+    
+    
+   
+    
+    .men-top,
+    .women-catalog,
+    .women-short,
+    .men-bottom {
+        margin-bottom: 1.5rem;
+        
+    }
+
+
+
+    
+    
+}
+
+
+/**********************************************
+        MEDIA QUERY FOR MEDIUM SCREENS
+***********************************************/
+
+
+@media (min-width: 768px ) {
+
+    /* nav/sidebar */
+
+    /* .bg-nav {
+        display: none ;
+    
+    } */
+
+    /* .nav-logo-container {
+        height: 1.8rem !important;
+        align-self: center;
+    }
+
+    #sideBar .sidebar-links {
+        font-size: normal;
+    }
+
+    #sideBar .sidebar-links .sub-links{
+        font-size: small;
+        
+    } */
+
+    /* main-content */
+
+    /* catalog-content */
+
+    
+
+
+}
+
+
+
+
+/**********************************************
+        MEDIA QUERY FOR LARGE SCREENS
+***********************************************/
+
+
+
+@media (min-width: 768px ) {
+
+     /* nav/sidebar */
+
+    .sm-nav {
+        display: none ;
+
+    }
+
+    .bg-nav {
+        display: flex;
+        margin: 0;
+    }
+
+    /* main-content */
+
+    /* catalog-content */
+
+
+    .catalog-label {
+        display: flex;
+    }
+
+
+    .men-top {
+        order: 1;
+    }
+
+    .men-bottom {
+        order: 4;
+    }
+
+    .women-catalog {
+        order: 2;
+    }
+
+    .men-top,
+    .men-bottom {
+        height: 100%;
+        
+    }
+
+    .women-short,
+    .women-set {
+        height: 50%;
+
+    }
+
+    
+
+    .men-top,
+    .women-set,
+    .women-short,
+    .men-bottom {
+        margin-bottom: 0rem ;
+    }
+
+    
+
+    .catalog-image-container {
+        margin: 0 3rem;
+        height: 38rem;
+        
+     }
+    
+
+
 }

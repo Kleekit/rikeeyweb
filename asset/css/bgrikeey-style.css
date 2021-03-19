@@ -1,0 +1,527 @@
+@media (max-width: 320px ) {
+
+    .bg-rikeey {
+        height: 140px;
+    }
+
+    .comfort-text {
+        font-size: 1.3rem;
+    
+    }
+
+    .complete-text {
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 0.3rem;
+        padding: 0.3rem 0.8rem ;
+
+    }
+    
+
+}
+
+
+@media (min-width: 320px ) {
+
+    .bg-rikeey {
+        height: 160px;
+    }
+
+    .comfort-text {
+        font-size: 1.6rem;
+    
+    }
+
+    .complete-text {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 0.5rem;
+        padding: 0.4rem 1rem ;
+
+    }
+
+
+}
+
+
+@media (min-width: 370px ) {
+
+    .bg-rikeey {
+        height: 185px;
+    }
+
+}
+
+@media (min-width: 420px ) {
+
+    .bg-rikeey {
+        height: 210px ;
+    }
+
+    .comfort-text {
+        font-size: 1.9rem;
+    
+    }
+
+    .complete-text {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 0.6rem;
+        padding: 0.4rem 1.3rem ;
+
+    }
+
+}
+
+@media (min-width: 470px ) {
+
+    .bg-rikeey {
+        height: 235px ;
+    }
+
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 400px;
+        
+    } */
+
+}
+
+@media (min-width: 520px ) {
+
+    .bg-rikeey {
+        height: 260px ;
+    }
+
+    .comfort-text {
+        font-size: 2.3rem;
+    
+    }
+
+    .complete-text {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 0.8rem;
+        padding: 0.4rem 1.5rem ;
+
+    }
+
+}
+
+@media (min-width: 570px ) {
+
+    .bg-rikeey {
+        height: 285px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 400px;
+        
+    } */
+
+   
+
+}
+
+@media (min-width: 620px ) {
+
+    .bg-rikeey {
+        height: 310px ;
+    }
+
+    .comfort-text {
+        font-size: 2.6rem;
+    
+    }
+
+    .complete-text {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1rem;
+        padding: 0.4rem 1.7rem ;
+
+    }
+
+}
+
+@media (min-width: 670px ) {
+
+    .bg-rikeey {
+        height: 335px ;
+    }
+
+/* 
+    .catalog-image-container {
+        margin: 0 3rem;
+        height: 400px;
+        
+    }
+     */
+
+}
+
+@media (min-width: 720px ) {
+
+    .bg-rikeey {
+        height: 360px ;
+    }
+
+    .comfort-text {
+        font-size: 3rem;
+    
+    }
+
+    .complete-text {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1.2rem;
+        padding: 0.4rem 1.7rem ;
+
+    }
+
+}
+
+@media (min-width: 770px ) {
+
+    .bg-rikeey {
+        height: 385px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 320px;
+        
+    } */
+
+}
+
+@media (min-width: 820px ) {
+
+    .bg-rikeey {
+        height: 410px ;
+    }
+
+    .comfort-text {
+        font-size: 3.5rem;
+    
+    }
+
+    .complete-text {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1.4rem;
+        padding: 0.5rem 1.9rem ;
+
+    }
+
+}
+
+@media (min-width: 870px ) {
+
+    .bg-rikeey {
+        height: 435px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 370px;
+        
+    } */
+
+}
+
+@media (min-width: 920px ) {
+
+    .bg-rikeey {
+        height: 460px ;
+    }
+
+
+
+    
+    .comfort-text {
+        font-size: 4rem;
+    
+    }
+
+    .complete-text {
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1.5rem;
+        padding: 0.5rem 2.2rem ;
+
+    }
+
+}
+
+@media (min-width: 970px ) {
+
+    .bg-rikeey {
+        height: 485px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 420px;
+        
+    } */
+
+}
+
+@media (min-width: 1020px ) {
+
+    .bg-rikeey {
+        height: 510px ;
+    }
+
+
+    .comfort-text {
+        font-size: 4.5rem;
+    
+    }
+
+    .complete-text {
+        font-size: 2.6rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1.5rem;
+        padding: 0.5rem 2.5rem ;
+
+    }
+
+}
+
+@media (min-width: 1070px ) {
+
+    .bg-rikeey {
+        height: 535px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 470px;
+        
+    } */
+
+}
+
+@media (min-width: 1120px ) {
+
+    .bg-rikeey {
+        height: 560px ;
+    }
+
+
+    
+    .comfort-text {
+        font-size: 5rem;
+    
+    }
+
+    .complete-text {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 1.7rem;
+        padding: 0.5rem 2.8rem ;
+
+    }
+
+}
+
+@media (min-width: 1170px ) {
+
+    .bg-rikeey {
+        height: 585px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 520px;
+        
+    } */
+
+}
+
+@media (min-width: 1220px ) {
+
+    .bg-rikeey {
+        height: 610px ;
+    }
+
+
+    .comfort-text {
+        font-size: 5.5rem;
+    
+    }
+
+    .complete-text {
+        font-size: 3.2rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 2rem;
+        padding: 0.5rem 3rem ;
+
+    }
+
+}
+
+@media (min-width: 1270px ) {
+
+    .bg-rikeey {
+        height: 635px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 570px;
+        
+    } */
+
+
+}
+
+@media (min-width: 1320px ) {
+
+    .bg-rikeey {
+        height: 660px ;
+    }
+
+
+
+    .comfort-text {
+        font-size: 6rem;
+    
+    }
+
+    .complete-text {
+        font-size: 3.5rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 2.3rem;
+        padding: 0.5rem 3rem ;
+
+    }
+
+}
+
+@media (min-width: 1370px ) {
+
+    .bg-rikeey {
+        height: 685px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 620px;
+        
+    } */
+
+}
+
+@media (min-width: 1420px ) {
+
+    .bg-rikeey {
+        height: 710px ;
+    }
+
+
+    .comfort-text {
+        font-size: 6.5rem;
+        margin-bottom: 0.5rem;
+    
+    }
+
+    .complete-text {
+        font-size: 3.8rem;
+        margin-bottom: 0.5rem;
+        
+
+    }
+
+    .shop-text {
+        font-size: 2.5rem;
+        padding: 0.5rem 3.2rem ;
+
+    }
+
+}
+
+@media (min-width: 1470px ) {
+
+    .bg-rikeey {
+        height: 735px ;
+    }
+
+    /* .catalog-image-container {
+        margin: 0 3rem;
+        height: 670px;
+        
+    } */
+
+}
+
+
+
+
+
+
+
