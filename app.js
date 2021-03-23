@@ -8,6 +8,7 @@ app.set('view engine', 'ejs');
 //setup public folder
 app.use(express.static(__dirname + '/views'));
 app.use(express.static(__dirname + '/asset'));
+app.use(express.static(__dirname + '/node_modules'));
 
  
 
@@ -15,6 +16,8 @@ app.get('/',function (req, res) {
     res.locals.title = "RIKEEY'S HOME";  
     res.render('landing')
 });
+
+
 
 
 

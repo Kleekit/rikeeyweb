@@ -6,6 +6,7 @@ body {
     font-size: normal;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   
 }
 
@@ -210,7 +211,41 @@ nav {
  /* welcome bg img */
 
 
-.bg-rikeey {
+.hero-container {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    
+    
+}
+
+.hero-image {
+    width: 100%;
+    position: absolute;
+}
+
+.hero-layer {
+    width: 100%;
+    max-height: inherit;
+    z-index: 3;
+    display: flex;
+    text-align: center; 
+    color: #fff;
+}
+
+
+
+.hero-text {
+    margin: auto;
+}
+
+
+
+
+
+
+/* .bg-rikeey {
     position: relative;
     margin: 0;
     padding: 0;
@@ -234,33 +269,29 @@ nav {
 
 .comfort-text {
     font-size: 5rem;
-}
+} */
+
+
 
 /* catalog-content */
 
-.catalog-label {
+.catalog-label,
+.slider-label {
     background-color: rgba(115,15,17,1 );
     color: #fff;
-    width: 20rem;
+    width: 30%;
     height: 3.2rem;
     margin-left: 0;
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
  }
 
-
-
-
-.men-top,
-.women-catalog,
-.men-bottom,
-.men-top-img,
-.women-set-img,
-.women-short-img,
-.men-bottom-img {
-    height: 100%;
-   
+ .catalog-label-text {
+    font-size: 1.5rem;
 }
+
+
+/* catalog imgs */
 
 .men-top,
 .women-short,
@@ -278,74 +309,69 @@ nav {
 
 .catalog-text-bg {
     position: absolute;
-    z-index: 100;
-    color: white;
-}
-
-
-
-/* 
-.men-top {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/men-top.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 4rem;
-}
-
-
-.men-bottom {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images//men-button.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 4rem;
-}
-
-.women-set {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/women-set.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 4rem;
-}
-
-.women-short {
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/women-short.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
-
-.men-top-img,
-.men-bottom-img {
-    width: 100%;
     z-index: 1;
-}
-
-.women-set,
-.women-short {
-    height: 50%;
-}
-
-.men-top {
-    position: relative;
-    
-}
-
-.catalog-text-bg {
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     width: 10rem;
     height: 3.2rem;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
     display: flex;
 
+}
+
+.men-top-img,
+.men-bottom-img,
+.women-set-img,
+.women-short-img {
+    width: 100%;
+}
+
+
+.men-top-img,
+.women-set-img,
+.women-short-img,
+.men-bottom-img {
+    height: 100%;
+   
+}
+
+
+
+
+/* slider section */
+
+.slider-container {
+   width: 25rem !important;
+   margin: auto;
+   border: 1px solid red;
+   overflow: visible !important;
+
+}
+
+.image-slide {
+    display: flex;
+    width: 300%;
+    /* position: relative;
+    transition: left 1s;
+    -webkit-transition: left 1s ;
+    -moz-transition: left 1s ;
+    -o-transition: left 1s ; */
+}
+
+.slide-img-container {
+    width: 25rem !important;
+    height: 30rem !important;
+    
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+}
+
+.w-90 {
+    width: 90% !important;
 }
 
 
@@ -404,28 +430,39 @@ footer {
 
     /* main-content */
 
+    /* hero container */
+
+    .hero-container {
+        margin-bottom: 2rem;
+    }
+
     
 
     /* catalog-content */
 
     /* catalog */
 
+    .catalog-section {
+        margin-bottom: 1rem ;
+    }
+
     .catalog-label {
         display: none;
+        
     }
 
     .catalog-image-container {
         margin: 0 1rem;
-        height: 800px ;
+        height: unset;
         
     }
 
     .men-top {
-        order: 3;
+        order: 4;
     }
 
     .men-bottom {
-        order: 4;
+        order: 3;
     }
 
     .women-catalog {
@@ -434,16 +471,19 @@ footer {
 
     .men-top,
     .men-bottom {
-        height: 48.5%;
+        height: 20rem;
         
+    }
+
+    .women-catalog {
+        height: calc((20rem + 1.5rem) * 2);
     }
 
     .women-short,
     .women-set {
-        height: 48.5%;
-
+        height: 48%;
+    
     }
-
     
     
    
@@ -454,6 +494,17 @@ footer {
     .men-bottom {
         margin-bottom: 1.5rem;
         
+    }
+
+
+    /* slider section */
+
+    .slider-label {
+        height: 2.5rem;
+     }
+
+    .slider-label-text {
+        font-size: 0.8rem;
     }
 
 
@@ -525,7 +576,18 @@ footer {
 
     /* main-content */
 
+    /* hero container */
+
+    .hero-container {
+        margin-bottom: 5.5rem;
+    }
+
+
     /* catalog-content */
+
+    .catalog-section {
+        margin-bottom: 8rem ;
+    }
 
 
     .catalog-label {
@@ -546,8 +608,9 @@ footer {
     }
 
     .men-top,
-    .men-bottom {
-        height: 100%;
+    .men-bottom,
+    .women-catalog {
+        height: 38rem;
         
     }
 
@@ -570,10 +633,19 @@ footer {
 
     .catalog-image-container {
         margin: 0 3rem;
-        height: 38rem;
-        
      }
     
+
+      /* slider section */
+
+    .slider-label {
+        height: 3.2rem;
+    }
+
+
+    .slider-label-text {
+        font-size: 1.5rem;
+    }
 
 
 }
