@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap");
+html,
+body {
+  font-family: "Karma", serif;
+  background: #e5e5e5;
+  font-size: normal;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.white-color {
+  color: #ffff;
+}
+
+.bg-transparent {
+  background-color: unset;
+}
+
+.border-none {
+  border: none;
+}
+
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+/**********************************************
+                
+                    NAV BAR
+
+***********************************************/
+
+nav,
+footer {
+  background: #f6f6f6;
+}
+
+nav {
+  height: 4rem;
+}
+
+.nav-logo-container,
+.nav-logo-img {
+  height: 100%;
+}
+
+.search-nav-label {
+  padding-top: 0.2rem;
+}
+
+.search-nav {
+  border-bottom: 0.03rem solid black;
+}
+
+/**********************************************
+                
+                    FOOTER
+
+***********************************************/
+/* footer {
+    height: 6rem;
+} */
+
+.footer-logo {
+  height: 3rem;
+}
+
+.email-footer-label {
+  background-color: #730f11;
+  width: 2.5rem !important;
+}
+
+.email-footer {
+  width: 15rem !important;
+}
+
+.email-input-footer {
+  background-color: #ede6e6 !important;
+}
+
+.signup-align {
+  text-align: end;
+}
+
+/* @media (max-width: 320px) {
+  .mx-s-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .signup-align {
+    text-align: left;
+  }
+
+  .br-on-mobile {
+    display: inherit;
+  }
+
+  .email-text-align {
+    text-align: unset !important ;
+  }
+} */
+
+@media (min-width: 320px) {
+  .mx-s-auto {
+    width: 100%;
+    /* margin-right: auto; */
+  }
+
+  .email-text-align {
+    margin-bottom: 5rem;
+  }
+
+  .signup-align {
+    text-align: left;
+  }
+
+  .signup-link {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .br-on-mobile {
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .payment-method {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .mx-s-auto {
+    margin-left: auto;
+    width: unset;
+  }
+
+  .email-text-align {
+    margin-bottom: 1.5rem;
+  }
+
+  .signup-align {
+    text-align: right;
+    margin-top: 2rem;
+  }
+
+  .br-on-mobile {
+    display: unset;
+    margin-right: auto;
+  }
+
+  .payment-method {
+    margin-top: 3rem;
+    text-align: unset;
+    margin-bottom: 3rem;
+  }
+}
