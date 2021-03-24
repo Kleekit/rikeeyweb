@@ -18,6 +18,12 @@ app.get('/',function (req, res) {
 });
 
 
+app.get('/details',function (req, res) {
+    res.locals.title = "Details";  
+    res.render('details')
+});
+
+
 
 
 

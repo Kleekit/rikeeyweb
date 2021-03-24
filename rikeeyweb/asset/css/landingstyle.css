@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+html,
+body {
+    font-family: 'Karma', serif;
+    background: #E5E5E5;
+    font-size: normal;
+  
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.white-color {
+    color: #ffff;
+}
+
+.bg-transparent {
+    background-color: unset;
+}
+
+.border-none {
+    border: none;
+}
+
+.no-box-shadow {
+    box-shadow: none !important;
+}
+
+/**********************************************
+                
+                    NAV BAR
+
+***********************************************/
+
+nav,
+footer {
+    background: #F6F6F6;
+    
+}
+
+nav {
+    height: 4rem;
+}
+
+.nav-logo-container,
+.nav-logo-img {
+    height: 100%;
+}
+
+.search-nav-label {
+    padding-top: 0.20rem;
+}
+
+.search-nav {
+    border-bottom: 0.03rem solid black ;
+}
+
+
+
+
+/**********************************************
+                
+                    FOOTER
+
+***********************************************/
+footer {
+    height: 18rem;
+    
+}
+
+.footer-logo {
+    height: 3rem;
+}
+
+
+.email-footer-label {
+    background-color: #730F11;
+    width: 2.5rem !important;
+}
+
+.email-footer {
+    width: 15rem !important;
+   }
+
+.email-input-footer {
+    background-color: navajowhite !important;
+    
+}
+
+
+
+
+
+
